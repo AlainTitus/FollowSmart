@@ -150,7 +150,7 @@ export default function FormulaireBon({ route, navigation }) {
 
     return (
         <ScrollView style={styles.container}>
-            <Text style={styles.titleForm}> Bon N°</Text>
+            <Text style={styles.titleForm}> Bon</Text>
             <View style={styles.field}>
                 <DateTime label="Date debut" dateType='date' placeHolderText='Mon Feb 02 2024' setTime={setIsDateDebut} />
                 {errors.isDateDebut ? <Text style={{ color: 'red', fontSize: 12 }}>{errors.isDateDebut}</Text> : null}
